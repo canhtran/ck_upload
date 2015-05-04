@@ -18,7 +18,7 @@ $CKEditor = $_GET['CKEditor'] ;
 $langCode = $_GET['langCode'] ;
  
 // Check the $_FILES array and save the file. Assign the correct path to a variable ($url).
-$url = "img/" . $_FILES["upload"]["name"];
+$url = "upload/img/" . $_FILES["upload"]["name"];
 // Usually you will only assign something here if the file could not be uploaded.
 $message = '';
  
